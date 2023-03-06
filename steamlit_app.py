@@ -1,7 +1,7 @@
 import streamlit
 import pandas
 streamlit.title('My Parent new healthy Diner')
-
+my_fruit_list = my_fruit_list.set_index('Fruit')
 
 streamlit.header('🥣Breakfast Menu')
 streamlit.text('🥗Omega 3 & Blueberry Oatmeal')
